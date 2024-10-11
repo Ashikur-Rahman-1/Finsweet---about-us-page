@@ -1,0 +1,601 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  outline: 0;
+  box-sizing: border-box;
+}
+
+ul,
+ol {
+  list-style: none;
+}
+
+a {
+  display: inline-block;
+  text-decoration: none;
+}
+
+img {
+  vertical-align: middle;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+div,
+a,
+li,
+span,
+img {
+  margin: 0;
+  padding: 0;
+}
+
+:root {
+  --primary_bg_color: #1c1e53;
+  --primary_text_color: #282938;
+  --box_color: #f4f6fc;
+  --white_color: #ffff;
+}
+
+body {
+  font-family: "Poppins", sans-serif;
+}
+
+/* =============================================== 
+                   navbar part css start
+================================================== */
+.customNavbar {
+  background: #1c1e53;
+}
+
+.navbar__item {
+  color: #bbbbcb;
+  margin-right: 25px;
+  font-size: 16px;
+  font-weight: 500;
+}
+
+.navbar__item:hover {
+  color: #fff;
+}
+
+.navbarBtn {
+  padding: 16px 48px;
+  border: 2px solid rgba(244, 246, 252, 0.2);
+  background-color: transparent;
+  color: #bbbbcb;
+  font-family: Poppins;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 28px;
+  border-radius: 41px;
+  -webkit-border-radius: 41px;
+  -moz-border-radius: 41px;
+  -ms-border-radius: 41px;
+  -o-border-radius: 41px;
+}
+
+.navbarBtn:hover {
+  border: 2px solid white;
+  color: white;
+}
+
+/* =============================================== 
+                   navbar part css end
+================================================== */
+
+/* =============================================== 
+                  about part css start
+================================================== */
+
+.about {
+  padding: 128px 0;
+}
+
+.about_left__header {
+  color: #282938;
+  font-family: Poppins;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 500;
+}
+
+.about_left__title {
+  color: var(--Dark-blue, #282938);
+  font-family: Poppins;
+  font-size: 54px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 74px;
+  margin-top: 8px;
+}
+
+.about_left__summary {
+  color: var(--Dark-blue, #282938);
+  text-align: justify;
+  font-family: Poppins;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 28px;
+  opacity: 0.7;
+  margin-top: 31px;
+  padding-right: 37px;
+}
+
+/* =============================================== 
+                  about part css end
+================================================== */
+
+/* ==============================================
+                  who part css start
+================================================= */
+
+.whoPart {
+  background: #f4f5f5;
+  padding: 80px 0;
+}
+
+.whocontent__heading {
+  color: var(--Dark-blue, #282938);
+  font-family: Poppins;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 28px;
+}
+
+.whocontent__title {
+  color: var(--Dark-blue, #282938);
+
+  /* Heading 3 */
+  font-family: Poppins;
+  font-size: 38px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 56px; /* 147.368% */
+}
+
+.whocontent__summary {
+  color: var(--Dark-blue, #282938);
+
+  /* Body 1 */
+  font-family: Poppins;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 28px; /* 175% */
+  opacity: 0.7;
+}
+/* =============================================== 
+                  who part css end
+================================================== */
+
+/* =============================================== 
+                  process part css start
+================================================== */
+#processpart {
+  padding: 128px 0;
+}
+
+.processHeading {
+  color: var(--Dark-blue, #282938);
+  font-family: Poppins;
+  font-size: 48px;
+  font-style: normal;
+  font-weight: 600;
+}
+
+.processContent__dot {
+  width: 24px;
+  height: 24px;
+  border-radius: 50%;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  -ms-border-radius: 50%;
+  -o-border-radius: 50%;
+  background: #2405f2;
+  position: relative;
+}
+
+.processContent__dot::after {
+  position: absolute;
+  content: "";
+  top: 50%;
+  left: 40px;
+  width: 224px;
+  border-top: 2px dashed #2405f2;
+  opacity: 0.4;
+  transform: translateY(-50%);
+  -webkit-transform: translateY(-50%);
+  -moz-transform: translateY(-50%);
+  -ms-transform: translateY(-50%);
+  -o-transform: translateY(-50%);
+}
+
+.processContent_title {
+  color: var(--Dark-blue, #282938);
+
+  /* Heading 6 */
+  font-family: Poppins;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 36px; /* 150% */
+  padding-top: 32px;
+}
+
+.processContent__summary {
+  color: var(--Dark-blue, #282938);
+
+  /* Body 1 */
+  font-family: Poppins;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 28px; /* 175% */
+  opacity: 0.7;
+  padding-top: 8px;
+}
+
+/* =============================================== 
+                  process part css end
+================================================== */
+
+/* =============================================== 
+                  motivation part css start
+================================================== */
+
+#motivation {
+  padding: 128px 0;
+  background-color: #eef4fa;
+}
+
+.motivationLeft__header {
+  color: var(--Dark-blue, #282938);
+  font-family: Poppins;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+}
+
+.motivationLeft__title {
+  color: var(--Dark-blue, #282938);
+  font-family: Poppins;
+  font-size: 38px;
+  font-style: normal;
+  font-weight: 600;
+  padding-top: 16px;
+}
+
+.motivationLeft__summary {
+  color: var(--Dark-blue, #282938);
+
+  /* Body 1 */
+  font-family: Poppins;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 28px; /* 175% */
+  opacity: 0.7;
+  padding-top: 16px;
+}
+
+/* =============================================== 
+                  motivation part css end
+================================================== */
+
+/* =============================================== 
+                  working part css start
+================================================== */
+#working {
+  padding: 128px 0;
+}
+
+.workingHeader {
+  color: var(--Dark-blue, #282938);
+  font-family: Poppins;
+  font-size: 48px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 64px;
+}
+
+.workingItems {
+  background-color: #f4f6fc;
+  padding: 50px 32px 48px 47px;
+  transition: all linear 0.3s;
+  -webkit-transition: all linear 0.3s;
+  -moz-transition: all linear 0.3s;
+  -ms-transition: all linear 0.3s;
+  -o-transition: all linear 0.3s;
+}
+
+.workingItems:hover {
+  box-shadow: 0px 0px 10px 1px rgba(0, 0, 0, 0.75);
+}
+
+.workingItems__title {
+  color: var(--Dark-blue, #282938);
+  font-family: Poppins;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 500;
+}
+
+.workingItems__summary {
+  color: var(--Dark-blue, #282938);
+  font-family: Poppins;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 28px;
+  opacity: 0.7;
+}
+
+.workingUsers__countTitle {
+  color: var(--Dark-blue, #282938);
+
+  /* Heading 3 */
+  font-family: Poppins;
+  font-size: 38px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 56px; /* 147.368% */
+}
+
+.workingUsers__countSummary {
+  color: var(--Dark-blue, #282938);
+
+  /* Body 1 */
+  font-family: Poppins;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 28px; /* 175% */
+  opacity: 0.7;
+}
+
+.workingUser {
+  padding-left: 60px;
+  opacity: 0.7;
+}
+
+/* =============================================== 
+                  working part css end
+================================================== */
+
+/* =============================================== 
+                  team part css start
+================================================== */
+#teamPart {
+  padding: 128px 0;
+  background-color: #f4f6fc;
+}
+
+.teamPartHeader {
+  color: var(--Dark-blue, #282938);
+  /* Heading 2 */
+  font-family: Poppins;
+  font-size: 48px;
+  font-style: normal;
+  font-weight: 600;
+}
+
+.teamPartItem {
+  background-color: white;
+  padding: 48px 64px 32px 64px;
+}
+
+.teamPartItemImgBody {
+  overflow: hidden;
+  width: 100%;
+  border-radius: 50%;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  -ms-border-radius: 50%;
+  -o-border-radius: 50%;
+}
+
+.overlay {
+  top: 100%;
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(
+    348deg,
+    #5239fa 17.97%,
+    rgba(255, 255, 255, 0) 79.2%
+  );
+  border-radius: 50%;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  -ms-border-radius: 50%;
+  -o-border-radius: 50%;
+  transition: all linear 0.3s;
+  -webkit-transition: all linear 0.3s;
+  -moz-transition: all linear 0.3s;
+  -ms-transition: all linear 0.3s;
+  -o-transition: all linear 0.3s;
+}
+
+.teamPartItemImgBody:hover .overlay {
+  top: 0px;
+  width: 100%;
+  height: 100%;
+  border-radius: 50%;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  -ms-border-radius: 50%;
+  -o-border-radius: 50%;
+}
+
+.teamPartItem__social {
+  bottom: 30px;
+  left: 62px;
+  font-size: 18px;
+  cursor: pointer;
+}
+
+.teamPartItemSocialIcon {
+  color: white;
+  font-size: 18px;
+}
+
+.teamPartItem__textTitle {
+  color: var(--b, #1d2130);
+  text-align: center;
+  font-family: Poppins;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 36px;
+}
+
+.teamPartItem__textSummary {
+  color: var(--b, #1d2130);
+  font-family: Poppins;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 28px;
+  opacity: 0.7;
+}
+/* =============================================== 
+                  team part css end
+================================================== */
+
+/* =============footer part css start============= */
+#footerPart {
+  padding: 96px 0 0;
+  background-color: #1c1e53;
+}
+
+.footerPart__leftSummary {
+  color: #fff;
+  font-family: Poppins;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 28px;
+  opacity: 0.8;
+  max-width: 399px;
+  padding: 0 0 86px;
+}
+
+.footerPart__leftContacts {
+  padding: 17px 0 16px;
+  background-color: #fcd980;
+}
+
+.leftContacts__mail {
+  padding-left: 37px;
+}
+
+.leftContacts__phone {
+  padding-left: 29px;
+}
+
+.leftContacts__mailTitle {
+  color: #282938;
+  font-family: Poppins;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 32px;
+}
+
+.leftContacts__mailinfo {
+  color: #282938;
+  font-family: Poppins;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 28px;
+  opacity: 0.8;
+}
+
+.leftContacts__phoneTitle {
+  color: #282938;
+  font-family: Poppins;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 32px;
+}
+
+.leftContacts__phoneInfo {
+  color: var(--Dark-blue, #282938);
+  font-family: Poppins;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 28px;
+  opacity: 0.8;
+}
+
+.footerPart__right {
+  padding-left: 141px;
+}
+
+.footerPart__rightTitle {
+  color: #fff;
+  font-family: Poppins;
+  font-size: 48px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 64px;
+}
+
+.footerPart__rightSummary {
+  color: #f4f6fc;
+  font-family: Poppins;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 28px;
+  opacity: 0.8;
+  width: 399px;
+}
+
+.footerPart__rightSocialIcon {
+  font-size: 18px;
+  color: var(--white_color);
+  padding-right: 25px;
+  cursor: pointer;
+}
+
+/* =============footer part css end============= */
+
+/* =============footer last part css start========= */
+
+.footerNavbar {
+  background-color: #fff;
+}
+
+.navbarCopyright {
+  color: #282938;
+  font-family: Poppins;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 28px;
+}
+
+.navbarMenu{
+  color: #282938;
+  font-family: Poppins;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 28px;
+}
+/* =============footer last part css end=========== */
+
